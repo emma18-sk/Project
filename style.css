@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -60,3 +61,83 @@ html,body{
 .wrapper span:last-child{
     filter: blur(20px);
 }
+=======
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: gray;
+    
+}
+.calculator{
+    background-color: lightpink;
+    padding: 30px;
+    border-radius: 35px;
+}
+
+.screen{
+    width: 224px;
+    background-color: lightgreen;
+    font-size: 40px;
+    text-align:end;
+    padding: 20px;
+}
+
+.buttons{
+    width: 232px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    background-color: lightcoral;
+    border: none;
+    color: rgb(255,255,255);
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 4px;
+}
+
+button:hover {
+    background-color: pink;
+    transition: 0.5s;
+
+}
+
+button:active {
+    background-color: rgb(232,232,232);
+
+}
+
+#equals{
+    background-color: hotpink;
+
+}
+
+#equals:hover {
+
+    background-color: rgb(240, 8, 132);
+}
+
+#clear {
+    width: 100%;
+    background-color: deeppink;
+    font-size: 20px;
+   
+    height: 45px;
+}
+
+#clear:hover {
+    background-color: rgba(187, 7, 103, 0.993);
+}
+
+.delete{
+    font-size: 20px;
+    width: 70px;
+    border-radius: 70%;
+}
+>>>>>>> 02be399c57f6a7db77fce2145fab944f8ef035ea
